@@ -15,6 +15,7 @@ gem 'bootstrap', '~> 4.0.0.alpha5'
 gem 'devise'
 gem 'activeadmin', '~> 1.0.0.pre4'
 gem 'inherited_resources', github: 'activeadmin/inherited_resources'
+gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
 
 
 group :development, :test do
